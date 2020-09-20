@@ -23,7 +23,7 @@ namespace DemoRunner
                     int distanceRunner;
                     distanceRunner = Convert.ToInt32(Console.ReadLine());
 
-                    Console.WriteLine("Ange tid i sekunder, decimaltal";
+                    Console.WriteLine("Ange tid i sekunder, decimaltal");
                     double timeRunner;
                     timeRunner = Convert.ToDouble(Console.ReadLine());
 
