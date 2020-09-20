@@ -58,7 +58,7 @@ namespace DemoRunner
         static void PrintMenu()
         {
             Console.WriteLine("Välj ett alternativ.");
-            Console.WriteLine("1. mata in ett resultat");
+            Console.WriteLine("1 mata in ett resultat");
             Console.WriteLine("2 skriv ut resultat");
             Console.WriteLine("a avsluta");
         }
