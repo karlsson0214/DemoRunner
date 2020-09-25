@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace DemoRunner
 {
@@ -7,7 +6,8 @@ namespace DemoRunner
     {
         static void Main(string[] args)
         {
-            List<Runner> runners = new List<Runner>();
+            Database db = new Database();
+
             Console.WriteLine("Välkommen");
 
             PrintMenu();
@@ -32,14 +32,11 @@ namespace DemoRunner
                     theRunner.distance = distanceRunner;
                     theRunner.time = timeRunner;
 
-                    runners.Add(theRunner);
+                    db.AddRunner(theRunner);
                 }
                 else if (choice == "2")
                 {
-                    foreach(Runner myRunner in runners)
-                    {
-                        myRunner.Print();
-                    }
+                    db.PrintRunners();
                 }
                 else
                 {
