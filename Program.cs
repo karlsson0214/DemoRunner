@@ -6,8 +6,9 @@ namespace DemoRunner
     {
         static void Main(string[] args)
         {
-
-            Run();
+            Test myTest = new Test();
+            myTest.Run();
+            //Run();
         }
         static void Run()
         {
