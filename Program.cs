@@ -6,6 +6,11 @@ namespace DemoRunner
     {
         static void Main(string[] args)
         {
+
+            Run();
+        }
+        static void Run()
+        {
             Database db = new Database();
 
             Console.WriteLine("Välkommen");
@@ -47,7 +52,6 @@ namespace DemoRunner
                 PrintMenu();
                 choice = Console.ReadLine();
             }
-
 
         }
 
