@@ -20,7 +20,7 @@ namespace DemoRunner
             myRunnerTwo.distance = 400;
             myRunnerTwo.time = 73.9;
 
-            db.AddRunner(myRunner);
+            db.AddRunner(myRunnerTwo);
 
             db.PrintRunners();
         }
